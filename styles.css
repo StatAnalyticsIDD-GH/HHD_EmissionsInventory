@@ -1,0 +1,18 @@
+/* Emissions inventory tables (written by emissions/inventory.py). */
+.ei-table { width: 100%; border-collapse: collapse; font-size: 0.88rem; margin: 0.3rem 0 1rem 0; }
+.ei-table caption { caption-side: top; text-align: left; font-weight: 600; color: #222; padding-bottom: 0.3rem; }
+.ei-table.ei-compact { font-size: 0.84rem; line-height: 1.25; }
+.ei-table.ei-compact td, .ei-table.ei-compact th { padding: 0.15rem 0.45rem; }
+.ei-table th { text-align: left; border-bottom: 2px solid #999; padding: 0.25rem 0.5rem; font-weight: 600; }
+.ei-table td { border-bottom: 1px solid #e3e3e3; padding: 0.25rem 0.5rem; vertical-align: top; }
+.ei-table .ei-num { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.ei-table td.ei-sec, .ei-table th.ei-sec { text-align: center; font-weight: 700; }
+.ei-table .ei-co { color: #555; font-size: 0.82rem; }
+.ei-table .ei-zero { color: #bbb; }
+.ei-table tr.ei-total td { border-top: 2px solid #999; font-weight: 600; }
+.ei-full td:first-child { min-width: 16rem; }
+
+.ei-note { font-size: 0.85rem; color: #555; }
+.ei-callout { border-left: 4px solid #B64B14; background: #faf6f0; padding: 0.6rem 0.9rem; margin: 1rem 0; }
+.ei-section-links a { display: inline-block; margin: 0 0.6rem 0.3rem 0; font-weight: 600; }
+.ei-logos img { height: 64px; width: auto; margin: 0.4rem 1.5rem 0.4rem 0; vertical-align: middle; }
